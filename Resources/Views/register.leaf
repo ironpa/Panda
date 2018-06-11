@@ -1,0 +1,10 @@
+
+#set("body"){
+<h1>Utwórz konto</h1>
+<form method="post">
+	<p>Nazwa Urzytkownika: <input type="text" name="username" /></p>
+	<p>Hasło: <input type="password" name="password" /></p>
+	<p><input type="submit" class="btn btn-lg btn-primary" /></p>
+</form>
+}
+#embed("master")

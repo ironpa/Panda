@@ -1,14 +1,14 @@
 #set("title"){Witaj!}
 #set("css"){
 <link rel="stylesheet" type="text/css" href="hello.css">
-<link rel="icon" href="/images/untitled.png">
+<link rel="icon" href="/images/panda.png">
 }
 #set("body"){
 <div class="login-class">
 	
 	<div class="container">
 		<div class="company-logo">
-			<img id="panda-logo" src="/images/untitled.svg">
+			<img id="panda-logo" src="/images/panda.svg">
 		</div>
 		<div class="login-text">
 			<h2>Zaloguj się!</h2>
