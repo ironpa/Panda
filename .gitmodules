@@ -1,0 +1,12 @@
+[submodule "vapor"]
+	path = vapor
+	url = https://github.com/vapor/vapor.git
+[submodule "fluent-postgresql"]
+	path = fluent-postgresql
+	url = https://github.com/vapor/fluent-postgresql.git
+[submodule "leaf"]
+	path = leaf
+	url = https://github.com/vapor/leaf.git
+[submodule "crypto"]
+	path = crypto
+	url = https://github.com/vapor/crypto.git
