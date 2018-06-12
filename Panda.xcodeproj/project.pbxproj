@@ -7110,6 +7110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC62222A20CF08BC00A35D25 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* routes.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		OBJ_112 /* DataType */ = {
 			isa = PBXGroup;
 			children = (
@@ -9143,7 +9151,7 @@
 				OBJ_9 /* Models */,
 				OBJ_11 /* boot.swift */,
 				OBJ_12 /* configure.swift */,
-				OBJ_13 /* routes.swift */,
+				CC62222A20CF08BC00A35D25 /* Controllers */,
 			);
 			name = App;
 			path = Sources/App;

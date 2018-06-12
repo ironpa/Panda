@@ -1,7 +1,7 @@
 import Vapor
 import Leaf
 import FluentPostgreSQL
-
+import Authentication
 
 /// Called before your application initializes.
 ///
@@ -32,13 +32,15 @@ public func configure(
     try services.register(FluentPostgreSQLProvider())
     
     // Initializing migrations
-    let migrations = MigrationConfig()
+    var migrations = MigrationConfig()
+    
     //Here you can add migrations
+    migrations.add(model: User.self, database: .psql)
     
     //Registering migrations
     services.register(migrations)
     
-    
+    try services.register(AuthenticationProvider())
     
     
     //Database configuration
